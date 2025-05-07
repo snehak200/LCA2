@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celestial INN - Luxury Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <a href="tel:(12)3456789"><i class="fas fa-phone"></i> (12) 345 67890</a>
+                <a href="mailto:celestialinn007@gmail.com"><i class="fas fa-envelope"></i> celestialinn007@gmail.com</a>
+            </div>
+            <div class="right-section">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <button class="booking-btn">BOOKING NOW</button>
+                <div class="language-dropdown">
+                    <button class="language-btn">
+                        <span class="globe-icon">🌐</span>
+                        <span class="current-lang">EN</span>
+                    </button>
+                    <div class="language-options">
+                        <a href="#" data-lang="en" class="active">
+                            <span class="flag">🇬🇧</span>
+                            English
+                            <i class="fas fa-check"></i>
+                        </a>
+                        <a href="#" data-lang="es">
+                            <span class="flag">🇪🇸</span>
+                            Español
+                            <i class="fas fa-check"></i>
+                        </a>
+                        <a href="#" data-lang="fr">
+                            <span class="flag">🇫🇷</span>
+                            Français
+                            <i class="fas fa-check"></i>
+                        </a>
+                        <a href="#" data-lang="de">
+                            <span class="flag">🇩🇪</span>
+                            Deutsch
+                            <i class="fas fa-check"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>Celestial INN</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="pages.html">Pages</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Background Slider -->
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('images/hero/hero-1.jpg')"></div>
+            <div class="slide" style="background-image: url('images/hero/hero-2.jpg')"></div>
+            <div class="slide" style="background-image: url('images/hero/hero-3.jpg')"></div>
+        </div>
+
+        <div class="hero-container">
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <h1>Celestial INN</h1>
+                <p>Here are the best hotel booking sites, including recommendations for international travel and for finding low-priced hotel rooms.</p>
+                <button class="discover-btn">DISCOVER NOW</button>
+            </div>
+
+            <!-- Booking Form -->
+            <div class="booking-form">
+                <h2>Booking Your Hotel</h2>
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label>Check In:</label>
+                        <div class="input-wrapper">
+                            <input type="date" id="checkIn">
+                            <i class="far fa-calendar"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Check Out:</label>
+                        <div class="input-wrapper">
+                            <input type="date" id="checkOut">
+                            <i class="far fa-calendar"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Guests:</label>
+                        <div class="select-wrapper">
+                            <select id="guests">
+                                <option>2 ADULTS</option>
+                                <option>1 ADULT</option>
+                                <option>3 ADULTS</option>
+                                <option>4 ADULTS</option>
+                            </select>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Room:</label>
+                        <div class="select-wrapper">
+                            <select id="rooms">
+                                <option>1 ROOM</option>
+                                <option>2 ROOMS</option>
+                                <option>3 ROOMS</option>
+                            </select>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <button type="submit" class="check-availability">CHECK AVAILABILITY</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Slider Navigation -->
+        <div class="slider-nav">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Add this before closing body tag -->
+    <script src="script.js"></script>
+</body>
+</html>
+<section class="about-us">
+    <div class="container">
+        <div class="about-content">
+            <span class="section-subtitle">ABOUT US</span>
+            <h2 class="section-title">Celestial INN<br>Luxury Hotel</h2>
+            
+            <div class="about-text">
+                <p>Sona.com is a leading online accommodation site. We're passionate about travel. Every day, we inspire and reach millions of travelers across 90 local websites in 41 languages.</p>
+                
+                <p>So when it comes to booking the perfect hotel, vacation rental, resort, apartment, guest house, or tree house, we've got you covered.</p>
+                
+                <button class="read-more">READ MORE</button>
+            </div>
+        </div>
+        
+        <div class="about-images">
+            <div class="image-container">
+                <img src="images/about/temple.jpg" alt="Japanese Temple" class="about-img">
+            </div>
+            <div class="image-container">
+                <img src="images/about/interior.jpg" alt="Hotel Interior" class="about-img">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">WHAT WE DO</span>
+            <h2 class="section-title">Discover Our Services</h2>
+        </div>
+        
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Travel Plan</h3>
+                <p>Experience personalized travel planning with our expert concierge team, crafting the perfect itinerary for your stay.</p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3>Catering Service</h3>
+                <p>Indulge in exquisite dining with our premium catering services, offering a diverse menu of international cuisine.</p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-baby"></i>
+                </div>
+                <h3>Babysitting</h3>
+                <p>Enjoy peace of mind with our professional childcare services, available 24/7 for your convenience.</p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-tshirt"></i>
+                </div>
+                <h3>Laundry</h3>
+                <p>Premium laundry and dry-cleaning services, ensuring your garments receive the finest care during your stay.</p>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h3>Hire Driver</h3>
+                <p>Professional chauffeur services available for airport transfers and city tours in luxury vehicles.</p>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-glass-martini-alt"></i>
+                </div>
+                <h3>Bar & Drink</h3>
+                <p>Unwind at our sophisticated bar featuring premium spirits, craft cocktails, and an extensive wine selection.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="rooms">
+    <div class="container">
+        <div class="rooms-grid">
+            <!-- Double Room -->
+            <div class="room-card">
+                <div class="room-image">
+                    <img src="images/rooms/double-room.jpg" alt="Double Room">
+                    <div class="room-overlay">
+                        <h3>Double Room</h3>
+                        <div class="price">
+                            <span class="amount">₹16,499</span>
+                            <span class="period">/Per night</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Premium King Room -->
+            <div class="room-card">
+                <div class="room-image">
+                    <img src="images/rooms/premium-room.jpg" alt="Premium King Room">
+                    <div class="room-overlay">
+                        <h3>Premium King Room</h3>
+                        <div class="price">
+                            <span class="amount">₹13,199</span>
+                            <span class="period">/Per night</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deluxe Room -->
+            <div class="room-card">
+                <div class="room-image">
+                    <img src="images/rooms/deluxe-room.jpg" alt="Deluxe Room">
+                    <div class="room-overlay">
+                        <h3>Deluxe Room</h3>
+                        <div class="price">
+                            <span class="amount">₹16,399</span>
+                            <span class="period">/Per night</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Family Room -->
+            <div class="room-card">
+                <div class="room-image">
+                    <img src="images/rooms/family-room.jpg" alt="Family Room">
+                    <div class="room-overlay">
+                        <h3>Family Room</h3>
+                        <div class="price">
+                            <span class="amount">₹24,799</span>
+                            <span class="period">/Per night</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">TESTIMONIALS</span>
+            <h2 class="section-title">What Customers Say?</h2>
+        </div>
+
+        <div class="testimonial-slider">
+            <div class="testimonial-content">
+                <p class="testimonial-text">
+                    After a construction project took longer than expected, my husband, my daughter and I needed a place to stay for a few nights. As a Chicago resident, we know a lot about our city, neighborhood and the types of housing options available and absolutely love our vacation at Sona Hotel.
+                </p>
+                
+                <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                
+                <div class="testimonial-author">- Alexander Vasquez</div>
+                
+                <div class="tripadvisor-logo">
+                    <img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="TripAdvisor">
+                </div>
+            </div>
+
+            <div class="slider-navigation">
+                <button class="nav-btn prev">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="nav-btn next">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">HOTEL NEWS</span>
+            <h2 class="section-title">Our Blog & Event</h2>
+        </div>
+
+        <div class="blog-grid">
+            <!-- Blog Item 1 -->
+            <div class="blog-item small">
+                <div class="blog-image">
+                    <img src="images/blog/tremblant.jpg" alt="Tremblant In Canada">
+                    <span class="category">TRAVEL TRIP</span>
+                    <div class="blog-overlay">
+                        <h3>Tremblant In Canada</h3>
+                        <span class="date">15TH APRIL, 2019</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Item 2 -->
+            <div class="blog-item small">
+                <div class="blog-image">
+                    <img src="images/blog/caravan.jpg" alt="Choosing A Static Caravan">
+                    <span class="category">CAMPING</span>
+                    <div class="blog-overlay">
+                        <h3>Choosing A Static Caravan</h3>
+                        <span class="date">15TH APRIL, 2019</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Item 3 -->
+            <div class="blog-item small">
+                <div class="blog-image">
+                    <img src="images/blog/copper-canyon.jpg" alt="Copper Canyon">
+                    <span class="category">EVENT</span>
+                    <div class="blog-overlay">
+                        <h3>Copper Canyon</h3>
+                        <span class="date">21TH APRIL, 2019</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Item 4 -->
+            <div class="blog-item large">
+                <div class="blog-image">
+                    <img src="images/blog/iqaluit.jpg" alt="Trip To Iqaluit">
+                    <span class="category">EVENT</span>
+                    <div class="blog-overlay">
+                        <h3>Trip To Iqaluit In Nunavut A Canadian Arctic City</h3>
+                        <span class="date">08TH APRIL, 2019</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Item 5 -->
+            <div class="blog-item medium">
+                <div class="blog-image">
+                    <img src="images/blog/barcelona.jpg" alt="Traveling To Barcelona">
+                    <span class="category">TRAVEL</span>
+                    <div class="blog-overlay">
+                        <h3>Traveling To Barcelona</h3>
+                        <span class="date">12TH APRIL, 2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Brand Section -->
+            <div class="footer-brand">
+                <h2 class="logo">Celestial INN</h2>
+                <p>We inspire and reach millions of travelers<br>across 90 local websites</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="footer-contact">
+                <h3>CONTACT US</h3>
+                <p class="phone">(12) 345 67890</p>
+                <p class="email">celestialinn007@gmail.com</p>
+                <p class="address">856 Cordia Extension Apt. 356, Lake,<br>United State</p>
+            </div>
+
+            <!-- Newsletter Section -->
+            <div class="footer-newsletter">
+                <h3>NEW LATEST</h3>
+                <p>Get the latest updates and offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <a href="#">Contact</a>
+                <a href="#">Terms of use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Environmental Policy</a>
+            </div>
+            <div class="copyright">
+                Copyright ©2024 All rights reserved | This template is made with ❤️ by <a href="#" class="colorlib">Colorlib</a>
+            </div>
+        </div>
+    </div>
+</footer>
